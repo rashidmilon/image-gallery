@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: 2px wavy underline green;
+}
+
+.container {
+  width: 85%;
+  margin: 10px auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery > img {
+  border: 3px solid black;
+  box-shadow: 5px 15px 10px 0px rgba(0, 0, 0, 0.5);
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* .gallery :hover {
+  transition: all 1s;
+} */
